@@ -28,7 +28,7 @@ export const EN_MASKS: BuiltinMask[] = [
     createdAt: 1688899480410,
   },
   {
-    avatar: "1f916",
+    avatar: "1f970",
     name: "MITSUKI",
     context: [
       {
@@ -52,7 +52,8 @@ export const EN_MASKS: BuiltinMask[] = [
       presence_penalty: 0.1,
       frequency_penalty: 0,
       sendMemory: true,
-      historyMessageCount: 6,
+      historyMessageCount: 4,
+      hideContext: true,
       compressMessageLengthThreshold: 1000,
     },
     lang: "en",
