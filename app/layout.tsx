@@ -10,7 +10,7 @@ import { getServerSideConfig } from "./config/server";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "MitsuGPT😍",
+  title: "MitsuGPT",
   description: "Your personal ChatGPT Chat Bot.",
   viewport: {
     width: "device-width",
@@ -36,7 +36,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="config" content={JSON.stringify(getClientConfig())} />
-        <meta property="og:image" content="https://winnie.mufamily.cn/_astro/backgrounds.f6b93b57_15y4r.webp">
+        <meta property="og:image" content="https://winnie.mufamily.cn/_astro/backgrounds.f6b93b57_15y4r.webp" />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
       </head>
