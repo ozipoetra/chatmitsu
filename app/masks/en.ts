@@ -29,7 +29,7 @@ export const EN_MASKS: BuiltinMask[] = [
   },
   {
     avatar: "1f970",
-    name: "MITSUKI",
+    name: "MITSUKI-EN",
     context: [
       {
         id: "prompt-dan-0",
