@@ -3,7 +3,7 @@ import { BuiltinMask } from "./typing";
 export const ID_MASKS: BuiltinMask[] = [
   {
     avatar: "1f970",
-    name: "MITSUKI",
+    name: "MITSUA-ID",
     context: [
       {
         id: "prompt-mitsu-0",
